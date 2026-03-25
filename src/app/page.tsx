@@ -179,7 +179,7 @@ export default function Dashboard() {
                 </button>
               </div>
 
-              {/* Footer de la Card */}
+              {/* Footer de la Cardo */}
               <div className={`flex justify-between items-center text-[9px] ${s.textSec} border-t ${s.border} pt-4`}>
                 <div className="flex items-center gap-2 font-bold"><Clock size={12} /> {log.datos_actividad.hora}</div>
                 <div className={`${theme === 'dark' ? 'bg-slate-900' : 'bg-slate-200'} px-2 py-1 rounded font-bold`}>{log.nombre_equipo}</div>
