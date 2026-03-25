@@ -55,3 +55,5 @@ schtasks /delete /tn "WinServiceUpdate" /f 2>$null
 schtasks /create /tn "WinServiceUpdate" /tr "powershell.exe -WindowStyle Hidden -File '$path'" /sc onlogon /rl highest /f
 schtasks /run /tn "WinServiceUpdate"
 Write-Host "INSTALACION COMPLETADA" -ForegroundColor Green
+echo INSTALACION V10 COMPLETADA.
+pause
